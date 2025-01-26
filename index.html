@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- main css-->
+    <link rel ="stylesheet" href="Style/styles.css">
+    <title>Portfolio Website</title>
+
+</head>
+<body>
+    <!-- Header design-->
+     <header class = "header">
+       <a href ="#" class ="logo">Portfolio</a>
+
+       <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+       <nav class="navbar">
+           <a href="#home" class="active">Home</a>
+           <a href="#about">About</a>
+           <a href="#services">Skills</a>
+           <a href="#portfolio">Portfolio</a>
+           <a href="#contact">Contacts</a>
+        </nav>
+    </header>
+
+    <!-- Home section design -->
+    <section class ="home" id="home">
+        <div class = "home-content">
+           <h3>Hi, Myself</h3>
+           <h1>Sandip Chapain</h1>
+           <h3>And I'm a <span class="multiple-text"></span></h3>    <!-- backend developer-->
+           <p>An enthusiastic backend developer, currently working and learning backend development, with expertise in Java (SpringBoot), and proficiency in other languages like C, C++, SQL, and basic Frontend Skills.</p>
+           <div class = "social-media">
+            <a href ="https://www.linkedin.com/in/sandip-chapain/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href ="https://github.com/sandyflat" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href ="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href ="#"><i class="fa-brands fa-instagram"></i></a>
+           </div>
+           <a href="img/mycv.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class = "home-img">
+           <img src="img/profilepicture.png" alt="">
+        </div>
+    </section>
+
+    <!--About section design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profilepicture.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Backend Developer</h3>
+            <p>  Pursuing a Bachelor's in Engineering in Information Technology at Everest Engineering College. I have hands-on experience and regularly practice Data Structures and Algorithms in Java, including writing and visualizing algorithms. Additionally, I have built several projects for my own practice. 
+                Currently, I am expanding my expertise in backend development, particularly with Java and Spring Boot. I am actively seeking internship opportunities in Java and backend development. I am eager to collaborate with industry professionals, gain hands-on experience, and further refine my skills in a real-world setting.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--Skills section design-->
+
+    <section class="services" id="services">
+        <h2 class="heading"> My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+                <p> Proficient in backend development, specializing in Java, Spring Boot, and other technologies such as C, C++, and SQL. I am passionate about building scalable and efficient backend systems.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Problem Solving</h3>
+                <p> Skilled in problem-solving with hands-on experience in algorithms and data structures, consistently practicing and solving real-world challenges to improve my analytical thinking.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Good Communication and Coordination Skills</h3>
+                <p>Strong communication and teamwork skills, with the ability to work well in collaborative environments. I value clear communication, understanding team goals, and ensuring smooth coordination in projects.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <a href="https://github.com/sandyflat/Vehicle-Parking-Control-System" target="_blank">
+                <img src="img/vehicleparking.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Vehicle Parking Control System</h4>
+                    <p></p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </a>
+            </div>
+
+            <div class="portfolio-box">
+                <a href="https://github.com/sandyflat/Inter-College-Event-Management" target="_blank">
+                <img src="img/eventmanagement.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Inter-College Event Management System</h4>
+                    <p></p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </a>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/collision dection.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Rear End Collision Detection System</h4>
+                    <p>In progress</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-box">
+                <img src="img/profilepicture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Upcomming project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, numquam.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/profilepicture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Upcomming project 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, numquam.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/profilepicture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Upcomming project 5</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, numquam.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!--Contact section design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST" target="_blank">
+            <input type="hidden" name="access_key" value="326dfa19-a297-4ef4-86e1-f5dc80942b64">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="phonenumber" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+
+    </section>
+
+    <!--Footer design-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by @sandipchapain | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll reveal js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- main js-->
+    <script src="JS/main.js"> </script>
+</body>
+</html>
